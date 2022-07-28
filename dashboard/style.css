@@ -1,0 +1,17 @@
+body{
+    background-image: url('../coffee-bean.bmp');
+}
+.y{
+    color:#e2c313;
+}
+#qbox{
+    margin: auto;
+    width: 80%;
+    border: 3px solid black;
+    padding: 10px;
+    background: rgb(156, 81, 44, 0.5);
+}
+#bolosica{
+    display: block;
+    margin-right: auto;
+}

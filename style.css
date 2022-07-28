@@ -1,0 +1,47 @@
+.login-box {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+    background-color: orange;
+}
+.button {
+    background-color: #e2c313;
+    border: none;
+    color: rgb(245, 41, 41);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: grab;
+    position: relative;
+    top: 148px;
+    left: 205px;
+}
+.field{
+    position: relative;
+    border: 2px solid rgb(197, 197, 0);
+    border-radius: 5px;
+}
+#mail{
+    top: 25px;
+    right: 60px;
+}
+#l-pass{
+    position: relative;
+    top: 40px;
+}
+#pass{
+ top: 70px;
+ right: 70px;
+}
+.y{
+    color:#e2c313;
+}
+body{
+    background-image: url('coffee-bean.bmp');
+}
