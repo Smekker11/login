@@ -13,7 +13,7 @@ if ($result->num_rows > 0){
     while($row = $result->fetch_assoc()){
         $id = $row["id"];
         $_SESSION['id'] = $id;
-        header("Location: /dashboard/index.php");
+        header("Location: " . $_SERVER['DOCUMENT_ROOT'] . "/dashboard/index.php");
     }
 }
 else{
