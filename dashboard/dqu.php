@@ -1,5 +1,5 @@
 <?php
-require  '/sqll.php';
+require  '../sqll.php';
 $conn = new mysqli($servername, $user, $pass, $dbname);
 $changelog = $_POST['changelog'];
 $mekkemsg = $_POST['mekkemsg'];
