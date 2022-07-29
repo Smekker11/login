@@ -13,7 +13,7 @@
     <body>
         <h1 align="center" class="y">mekke login</h1>
         <div class="login-box">
-          <form action="/qu.php" method="post">
+          <form action="/login/qu.php" method="post">
               <label id="l-mail" for="mail">EMAIL:</label>
               <input class="field" id="mail" name="email" type="email"><br><br>
               <label id="l-pass" for="pass">PASSWD:</label>

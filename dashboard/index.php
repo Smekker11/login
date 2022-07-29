@@ -5,7 +5,7 @@ if ($id == NULL){
     http_response_code(403);
     die('ERR CODE 403 -- FORBIDDEN');
 }
-require $_SERVER['DOCUMENT_ROOT'] . '/sqll.php';
+require "../sqll.php";
 $conn = new mysqli($servername, $user, $pass, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
